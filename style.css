@@ -1,0 +1,97 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #839b86;
+    color: #fff;
+    padding: 10px 0;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+aside {
+    width: 30%;
+    padding-right: 20px;
+    border-right: 1px solid #ccc;
+}
+
+main {
+    width: 65%;
+}
+
+.photo img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-info, .certification, .languages, .hobbies, .summary, .experience, .education, .skills, .projects, .qualities {
+    margin-bottom: 20px;
+}
+
+.contact-info h2, .certification h2, .languages h2, .hobbies h2, .summary h2, .experience h2, .education h2, .skills h2, .projects h2, .qualities h2 {
+    font-size: 1.4em;
+    color: #839b86;
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+.skills ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills ul li {
+    margin-right: 15px;
+    background-color: #e2eddf;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les liens */
+a {
+    color: #839b86;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
